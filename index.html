@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hand Cricket by Ragul</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/jpg" href="favicon.jpg"/>
+	<script src="design.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+</head>
+<body oncontextmenu="return false">
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="header">
+                <header><h1>Hand Cricket</h1></header>
+        <h1 id="achievement"></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="userchoice">
+                <!--user choice is shown in here-->
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="usercol" style="
+                    color: #FFFF00;"> 
+                        <h2>Your Choice:</h2>
+                        <h1 id="userchoiceshow"></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="choice">
+                        <button id="one" onclick="play1()">1</button>
+                        <button id="two" onclick="play2()">2</button>
+                        <button id="three" onclick="play3()">3</button>
+                        <button id="four" onclick="play4()">4</button>
+                        <button id="five" onclick="play5()">5</button>
+                        <button id="six" onclick="play6()">6</button>
+                        <button id="seven" onclick="play7()">7</button>
+                        <button id="eight" onclick="play8()">8</button>
+                        <button id="nine" onclick="play9()">9</button>
+                        <button id="ten" onclick="play10()">10</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="scoreboard" style="color: #00FFFF;">
+                <h1>Score:</h1>
+                <h2 id="score"></h2>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="computerchoice" style="color: #FF00FF;">
+                <h2>Computer's Choice :</h2>
+                <h1 id="computerchoiceshow"></h1>
+            </div>
+        </div>
+        <div class="row" style="color: #00FF00; font-size: 50px;">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="commentary">
+                <h3 id="comments" style="font-size: 50px;"></h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
